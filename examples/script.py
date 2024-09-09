@@ -9,3 +9,6 @@ Out[42]: 100
 z == 100"""
 
 print(multiline_str)
+
+print("test", end=" ")
+print("test2")

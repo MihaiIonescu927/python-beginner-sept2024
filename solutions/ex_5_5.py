@@ -9,9 +9,8 @@ vowels = "aeiouAEIOU"
 def remove_vowels(input_str):
     output_str = ""
     for char in input_str:
-        if char in vowels:
-            continue
-        output_str += char
+        if char not in vowels:
+            output_str += char
     return output_str
 
 

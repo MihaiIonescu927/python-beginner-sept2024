@@ -10,7 +10,7 @@ def get_words(sentence):
     return words_without_punctuation
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # if module is executed / is not imported
     zen = """
     The Zen of Python, by Tim Peters
     Beautiful is better than ugly.
